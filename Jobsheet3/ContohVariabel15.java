@@ -3,8 +3,8 @@ public class ContohVariabel15 {
         String salahSatuHobySayaAdalah = "Bermain petak umpet";
         boolean isPandai = true;
         char jenisKelamin = 'P';
-        byte _umurSayaSekarang = 20;
-        double $ipk = 3.24, tinggi = 1.78;
+        byte _umurSayaSekarang = 18;
+        double $ipk = 4.0, tinggi = 1.78;
         System.out.println(salahSatuHobySayaAdalah);
         System.out.println("isPandai? " + isPandai);
         System.out.println("Jenis Kelamin: " + jenisKelamin);
