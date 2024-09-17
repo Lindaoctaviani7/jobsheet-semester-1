@@ -12,5 +12,6 @@ class Bank15 {
         jumlah_tabungan_akhir=bunga+jumlah_tabungan_awal;
         System.out.println("bunga adalah " + bunga);
         System.out.println("jumlah tabungan akhir anda adalah " + jumlah_tabungan_akhir);
+        Input.close();
     }
 }

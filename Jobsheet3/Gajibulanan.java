@@ -8,20 +8,22 @@ public class Gajibulanan {
 
         //2.input
         Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan jumlah jam: ");
         jumlahJam = sc.nextInt();
+        System.out.print("Masukkan upah per jam: ");
         upahPerJam = sc.nextInt();
 
+        //3.eksekusi
         int totalGaji = jumlahJam*upahPerJam;
         float bonus = persenBonus*totalGaji;
         int totalGajiPlusBonus = totalGaji+(int)bonus;
         float pajak = persenPajak*totalGajiPlusBonus;
         int gajiBersih = totalGajiPlusBonus-(int)pajak;
 
+        //4.output
         System.out.println("Total gaji = " + totalGaji);
         System.out.println("Bonus = " + bonus);
         System.out.println("Pajak = " + pajak);
         System.out.println("Gaji bersih = " + gajiBersih);
-
     }
-    
 }

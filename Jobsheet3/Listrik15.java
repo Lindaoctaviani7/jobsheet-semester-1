@@ -6,6 +6,7 @@ public class Listrik15 {
 
       //1.input
       Scanner input = new Scanner(System.in);
+      System.out.println("Masukkan penggunaan listrik (kwh): ");
       totalPenggunaanListrik = input.nextInt();
 
       //2.hitung tarif
