@@ -26,5 +26,6 @@ public class Kafe15 {
         System.out.println("Keanggotaan pelanggan " + keanggotaan);
         System.out.println("Item pembelian " + jumlahKopi + " kopi, " + jumlahTeh + " teh, " + jumlahRoti + " roti");
         System.out.println("Nominal bayar Rp " + nominalBayar);
+        System.out.println("Total Int: " + nominalInt);
     }
 }
