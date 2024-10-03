@@ -2,15 +2,15 @@ import java.util.Scanner;
 public class Siakad015 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int nilaiKuis, nilaiTugas, nilaiUjian, nim, nomorAbsen;
+        int nilaiKuis, nilaiTugas, nilaiUjian, nomorAbsen;
         double nilaiAkhir;
-        String nama, kualifikasi, nilaiHuruf;
+        String nama, nim, kualifikasi, nilaiHuruf;
         char kelas;
 
         System.out.print("masukkan nama: ");
         nama = sc.nextLine();
         System.out.print("masukkan nim: ");
-        nim = sc.nextInt();
+        nim = sc.nextLine();
         System.out.print("masukkan kelas: ");
         kelas = sc.next().charAt(0);
         System.out.print("masukkan nomor absen: ");
