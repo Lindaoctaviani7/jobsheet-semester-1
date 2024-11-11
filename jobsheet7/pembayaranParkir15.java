@@ -5,7 +5,7 @@ public class pembayaranParkir15 {
         Scanner sc = new Scanner(System.in);
 
         int jenisKendaraan, durasiTotal=0, durasiParkir;
-        double totalPembayaran, biaya;
+        double totalPembayaran=0, biaya;
 
         System.out.print("Program hitung pembayaran parkir");
         System.out.print("Masukkan jenis kendaraan, 1 untuk mobil, 2 untuk motor, dan 0 untuk keluar");
